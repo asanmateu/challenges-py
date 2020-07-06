@@ -1,7 +1,7 @@
 def fizz_buzz(num):
 	"""Takes a number as an argument and returns 'Fizz', 'Buzz' or 'FizzBuzz'
 
-   Instructions:
+   Instructions
 
 	If the number is a multiple of 3 the output should be "Fizz".
 	If the number given is a multiple of 5, the output should be "Buzz".
