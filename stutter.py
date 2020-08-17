@@ -7,4 +7,4 @@ def stutter(word):
     return str(2 * (word[:2] + '... ') + word + '?')
 
 
-print(stutter('incredible'))
+print(stutter('outstanding'))
