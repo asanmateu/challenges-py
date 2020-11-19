@@ -11,6 +11,16 @@ def remove_abc(txt):
     else:
         return None
 
+
 print(remove_abc("This might be a bit hard"))
 print(remove_abc("Hello world!"))
 print(remove_abc("Coding is fun!"))
+
+# Alternative:
+
+"""
+import re
+def remove_abc(t):
+	s=re.sub('[abc]','',t)
+	return None if s==t else s
+"""
