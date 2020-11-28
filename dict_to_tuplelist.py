@@ -11,3 +11,10 @@ d2 = {'likes': 2, 'dislikes': 3, 'followers': 10}
 
 print(dict_to_list(d1))
 print(dict_to_list(d2))
+
+"""ALTERNATIVE
+
+def dict_to_list(d):
+	return sorted(d.items())
+	
+"""
