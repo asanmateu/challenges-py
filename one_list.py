@@ -7,3 +7,18 @@ def one_list(lst):
 
 
 print(one_list([[1, 2], [3, 4]]))
+
+
+"""
+
+ALTERNATIVES:
+
+def one_list(lst):
+	return sum(lst, [])
+    
+def one_list(lst):
+	return lst[0]+lst[1]
+
+one_list=lambda l:sum(l,[])
+
+"""
